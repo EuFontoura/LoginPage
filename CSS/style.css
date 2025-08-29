@@ -17,7 +17,7 @@ body {
     background-position: center;
 }
 
-.loginForm {
+.loginForm, .registerForm {
     width: 420px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
@@ -105,7 +105,7 @@ body {
         }
     }
 
-    & .register-link {
+    & .register-link, .login-link {
         font-size: 14.5px;
         text-align: center;
         margin: 20px 0 15px;
